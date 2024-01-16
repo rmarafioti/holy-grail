@@ -4,3 +4,20 @@
     box-sizing: border-box;
     border: 1px solid green;
 }
+
+header {
+    text-align: center;
+    background-color: aqua;
+}
+
+body {display: flex;
+    flex-direction: column;
+}
+main {display: flex;
+    flex-direction: row;
+}
+
+footer {
+    text-align: center;
+    background-color: aqua;
+}
