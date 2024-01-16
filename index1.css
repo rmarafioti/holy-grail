@@ -10,11 +10,14 @@ body {
 }
 
 header {
+    font-weight: normal;
+    font-size: 4em;
+    font-family: sans-serif;
     text-align: center;
     background-color: aqua;
     border: solid;
     border-color: black;
-    padding: 12px;
+    padding: 1rem;
 }
 
 body {display: flex;
@@ -24,15 +27,26 @@ main {display: flex;
     flex-direction: row;
 }
 
-.menu {
+div {
+    font-size: 1.5em;
+    font-weight: lighter;
     text-align: center;
+}
+.menu {
+    text-align: left;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    font-weight: normal;
     background-color: rgb(225, 185, 225);
     border: solid;
     border-color: black;
-    padding: 5px;
+    padding: 12px;
 }
 
 aside {
+    font-size: 3em;
+    font-weight: lighter;
+    font-family: sans-serif;
     text-align: center;
     background-color: rgb(225, 185, 225);
     border: solid;
@@ -41,19 +55,28 @@ aside {
 
 }
 
-.content {
+section {
     text-align: center;
+    font-size: 2em;
+}
+.content {
+    font-weight: lighter;
+    font-family: sans-serif;
+    text-align: justify;
     background-color: pink;
     border: solid;
     border-color: black;
-    padding: 12px;
+    padding: 1em;
     
 }
 
 footer {
+    font-weight: normal;
+    font-size: 4em;
+    font-family: sans-serif;
     text-align: center;
     background-color: aqua;
     border: solid;
     border-color: black;
-    padding: 12px;
+    padding: 1rem;
 }
