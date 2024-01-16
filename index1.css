@@ -2,12 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
+}
+
+body {
+    border: solid;
 }
 
 header {
     text-align: center;
     background-color: aqua;
+    border: solid;
+    border-color: black;
+    padding: 12px;
 }
 
 body {display: flex;
@@ -17,7 +24,36 @@ main {display: flex;
     flex-direction: row;
 }
 
+.menu {
+    text-align: center;
+    background-color: rgb(225, 185, 225);
+    border: solid;
+    border-color: black;
+    padding: 5px;
+}
+
+aside {
+    text-align: center;
+    background-color: rgb(225, 185, 225);
+    border: solid;
+    border-color: black;
+    padding: 12px;
+
+}
+
+.content {
+    text-align: center;
+    background-color: pink;
+    border: solid;
+    border-color: black;
+    padding: 12px;
+    
+}
+
 footer {
     text-align: center;
     background-color: aqua;
+    border: solid;
+    border-color: black;
+    padding: 12px;
 }
