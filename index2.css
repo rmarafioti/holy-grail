@@ -22,12 +22,10 @@ header {
 }
 
 body {display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    
 }
 
 main {display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
 }
 
 div {
