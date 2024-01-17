@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*border: 1px solid green;*/
+}
+
+body {
+    border: solid;
+}
+
+header {
+    font-weight: normal;
+    font-size: 4em;
+    font-family: sans-serif;
+    text-align: center;
+
+    background-color: aqua;
+    border: solid;
+    border-color: black;
+    padding: 1rem;
+}
+
+body {display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    
+}
+
+main {display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+div {
+    font-weight: lighter;
+    font-size: 1.5em;
+    text-align: center;
+}
+.menu {
+    font-weight: normal;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    text-align: left;
+    
+    background-color: rgb(225, 185, 225);
+    border: solid;
+    border-color: black;
+    padding: .5em;
+}
+
+.content {
+    font-weight: lighter;
+    font-family: sans-serif;
+    text-align: justify;
+
+    background-color: pink;
+    border: solid;
+    border-color: black;
+    padding: 1em;
+    
+}
+
+section {
+    font-size: 2em;
+    text-align: center;
+
+}
+
+aside {
+    font-weight: lighter;
+    font-size: 3em;
+    font-family: sans-serif;
+    text-align: center;
+
+    background-color: rgb(225, 185, 225);
+    border: solid;
+    border-color: black;
+    padding: .5em;
+
+}
+
+footer {
+    font-weight: normal;
+    font-size: 4em;
+    font-family: sans-serif;
+    text-align: center;
+
+    background-color: aqua;
+    border: solid;
+    border-color: black;
+    padding: 1rem;
+}
